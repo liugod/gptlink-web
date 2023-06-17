@@ -153,7 +153,7 @@ export default function Header({ isPlain = false }) {
       <div className="flex items-center">
         <button className="flex items-center gap-2 text-lg font-semibold" onClick={() => handleNavToChat()}>
           <IconSvg className="h-10 w-10 rounded-full" />
-          GPTLink Web
+          EasyGPT
         </button>
         {!isPlain && (
           <>
@@ -170,7 +170,7 @@ export default function Header({ isPlain = false }) {
       </div>
 
       <div className="flex items-center gap-2">
-        <Link to="https://github.com/gptlink/gptlink-web" target="_blank">
+        <Link to="https://github.com/" target="_blank">
           <Button variant="ghost" className="p-0 px-2">
             <Github size={18} />
           </Button>
