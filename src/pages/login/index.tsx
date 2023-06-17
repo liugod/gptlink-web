@@ -67,7 +67,7 @@ export default function Login() {
             </TabsList>
 
             <IconSvg className="mb-4 w-40 rounded-full" />
-            <div className="text-3xl font-bold"> GPTLink Web </div>
+            <div className="text-3xl font-bold"> EasyGPT </div>
 
             <TabsContent value="qrcode" className="flex w-full flex-col items-center">
               <Button className="mb-4 mt-12 w-[70%]" disabled={!protocolChecked} onClick={handleLogin}>
